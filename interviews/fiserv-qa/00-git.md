@@ -160,6 +160,21 @@ main
         └── bugfix/login-bug
 ```
 
+### Mermaid branching diagram
+
+```mermaid
+graph TD
+    A[main] --> B[develop]
+    B --> C[feature/login-flow]
+    B --> D[feature/api-tests]
+    B --> E[bugfix/login-bug]
+    C --> F[PR to develop]
+    D --> F
+    E --> F
+    F --> G[Merge to develop]
+    G --> H[Deploy / release]
+```
+
 ---
 
 ## 🧑‍🤝‍🧑 8. How Teams Work with Git
