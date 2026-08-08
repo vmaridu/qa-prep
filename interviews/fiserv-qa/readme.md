@@ -1,103 +1,41 @@
 # 🎯 Fiserv QA — Study Plan
 
----
-
-## 🤖 AI for QA
-
-- LLM basics
-- Models
-- Prompting
-- Agents, Harness & Tools
-- Mermaid diagrams
-- GitHub Copilot
+This README now works as a quick index. The detailed notes are stored in the numbered topic files below.
 
 ---
 
-## 🧪 Core Testing Skills
+## 📚 Study Files
 
-- Test Planning
-- Test Case Design
-- Test Case Management
-- Defect Management
-- Root Cause Analysis
-- Data Validation (SQL)
-
----
-
-## 🔌 API Testing
-
-- XML & JSON
-- API Basics
-  - HTTP status codes
-  - HTTP verbs
-  - Auth methods
-  - JWT
-- REST API concepts
-- Postman
-  - Collections & Environments
-  - JavaScript in Tests / Pre-request scripts
-  - Request manipulation
-  - Response assertions
-  - Response extraction
-- Top 100 REST interview questions
-
----
-
-## ☕ Java Automation
-
-- Java fundamentals
-- Maven
-- Cucumber & Gherkin
-- Writing and running tests
-
----
-
-## 🌐 End-to-End Validation
-
-- Web application testing
-- Distributed application testing
-- UI + API + Backend testing
-
----
-
-## 🧭 UI & Framework Automation
-
-- Selenium
-- Scalable automation framework design
-- Automation regression suites
-- Test automation strategy
-
----
-
-## 🦊 CI/CD & Source Control
-
-- Git basics (branch, commit, merge, PR/MR)
-- GitLab CI/CD pipelines (`.gitlab-ci.yml`)
-
----
-
-## ⚡ Performance Testing
-
-- JMeter
-- Performance, Load & Scalability concepts
-
----
-
-## 🔒 Security Testing
-
-- Security testing practices
-- Vulnerability assessment
-- Authentication & Authorization
-- Secure application methodologies
+- [01 - AI for QA](01-ai.md) — LLM basics, prompt examples, model choices, Mermaid, and GitHub Copilot basics.
+- [02 - Core Testing Skills](02-core.md) — test planning, test case design, defect handling, and root cause analysis.
+- [03 - API Testing](03-api.md) — XML/JSON, HTTP methods, auth, REST concepts, and Postman essentials.
+- [04 - UI & Framework Automation](04-ui.md) — Selenium, framework design, regression suites, and frontend frameworks.
+- [05 - Java Automation](05-automations.md) — Java fundamentals, Maven, and Cucumber/Gherkin.
+- [06 - End-to-End Validation](06-e2e.md) — full user journey testing across UI, API, and backend.
+- [07 - CI/CD & Source Control](07-ci-cd.md) — Git, pull requests, and GitLab CI/CD examples.
+- [08 - Performance Testing](08-jmeter.md) — JMeter basics, performance terms, and example use cases.
+- [09 - Security Testing](09-security.md) — authentication, authorization, input validation, and OWASP basics.
 
 ---
 
 ## 🛠️ Setup & Tools
 
-### Mockoon
-- Download: https://mockoon.com/download/
-- Import: `mocks/config.json`
+- Mockoon: https://mockoon.com/download/
+- Mock config: `mocks/config.json`
+- Useful links:
+  - https://editor.swagger.io/
+  - https://learning.postman.com/docs/tests-and-scripts/write-scripts/test-scripts/
+  - https://www.selenium.dev/
+  - https://jmeter.apache.org/
 
-### Useful Links
-- https://editor.swagger.io/
-- https://learning.postman.com/docs/tests-and-scripts/write-scripts/test-scripts/
+---
+
+## 🎯 Suggested Study Order
+
+1. Start with [01 - AI for QA](01-ai.md)
+2. Review [02 - Core Testing Skills](02-core.md)
+3. Practice [03 - API Testing](03-api.md)
+4. Learn [05 - Java Automation](05-automations.md)
+5. Move to [04 - UI & Framework Automation](04-ui.md)
+6. Study [06 - End-to-End Validation](06-e2e.md)
+7. Finish with [07 - CI/CD & Source Control](07-ci-cd.md), [08 - Performance Testing](08-jmeter.md), and [09 - Security Testing](09-security.md)
