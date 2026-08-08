@@ -10,7 +10,7 @@ This README now works as a quick index. The detailed notes are stored in the num
 - [02 - Core Testing Skills](02-core.md) — test planning, test case design, defect handling, and root cause analysis.
 - [03 - API Testing](03-api.md) — XML/JSON, HTTP methods, auth, REST concepts, and Postman essentials.
 - [04 - UI & Framework Automation](04-ui.md) — Selenium, framework design, regression suites, and frontend frameworks.
-- [05 - Java Automation](05-automations.md) — Java fundamentals, Maven, and Cucumber/Gherkin.
+- [05 - Java Automation](05-automations.md) — Java fundamentals, Maven, Cucumber/Gherkin, and Java debugging basics.
 - [06 - End-to-End Validation](06-e2e.md) — full user journey testing across UI, API, and backend.
 - [07 - CI/CD & Source Control](07-ci-cd.md) — Git, pull requests, and GitLab CI/CD examples.
 - [08 - Performance Testing](08-jmeter.md) — JMeter basics, performance terms, and example use cases.
