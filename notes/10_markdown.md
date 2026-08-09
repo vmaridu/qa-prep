@@ -2,6 +2,7 @@
 
 Markdown is a simple way to format text. It helps you write content that is easy to read and easy to convert into HTML.
 
+
 ## 1. Headings
 
 Use `#` to create headings.
